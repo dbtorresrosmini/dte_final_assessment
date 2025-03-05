@@ -1,0 +1,8 @@
+body {
+    background-color: darkblue;
+}
+#albumPileImage {
+    display: flex;
+    text-align: center;
+    width: 30%;
+}
