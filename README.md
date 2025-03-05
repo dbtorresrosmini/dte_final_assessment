@@ -1,1 +1,13 @@
-# dte_final_assessment
+# diego
+
+# Commands
+
+
+```bash
+git add .
+
+git commit -m "MEssaage"
+
+git push
+
+```
