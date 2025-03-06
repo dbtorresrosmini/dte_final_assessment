@@ -19,12 +19,16 @@ body {
 
 #title {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 275px;
+    left: 25%;
     width: 50%;
     height: 25%;
   }
   
 /* <---Paragraphs & Images---> */
+
+p {
+    font-size: 25px;
+}
 
 /* <---Footer---> */
