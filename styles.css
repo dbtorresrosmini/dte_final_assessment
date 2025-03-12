@@ -47,6 +47,17 @@ body {
     top: 850px;
 }
 
+/* <---Carousel---> */
+
+.carousel {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: 2;
+    bottom: 200px;
+}
+
 /* <---Paragraphs, Padding & Margin Modifications and Images---> */
 
 .padding {
@@ -63,7 +74,7 @@ body {
 
 #padImage2 {
     width: 100%;
-    height: 300px;
+    height: 850px;
 }
 
 /* <---Footer---> */
