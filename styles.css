@@ -2,7 +2,9 @@
 *{
     margin-left: 2px;
     margin-right: 2px;
+    padding: 0;
 }
+
 body {
     background-image: url("bg.jpg")
 }
@@ -90,22 +92,42 @@ body {
 /* <---Paragraph One---> */
 
 .FirstParagraph {
-    position:absolute;
+    z-index: 3;
+    margin: 50px 0;
+    padding: 0 30px;
 }
 
 #paragraph2 {
     z-index: 2; 
     position: relative; 
     color: white;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-right: 50%;
     bottom: 700px;
 }
 
 #FirstParagraphImage {
     z-index: 2;
-    position: relative;
     position: absolute;
+    top: 1850px;
+    left: 57%;
+}
+
+/* <---Paragraph Two---> */
+
+.SecondParagraph {
+    z-index: 3;
+    margin: 50 0;
+    padding: 0 30px;
+}
+
+#paragraph3 {
+    z-index: 2;
+    position: relative;
+    color: white;
+    margin-left: 50%;
+    margin-right: 40px;
+    bottom: 200px;
 }
 
 /* <---Padding & Margin Modifications---> */
@@ -133,6 +155,13 @@ body {
     height: 700px;
     z-index: 2;
     top: 2050px;
+}
+
+#padImage4 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 475px;
 }
 
 /* <---Footer---> */
