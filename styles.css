@@ -117,16 +117,12 @@ body {
 
 .SecondParagraph {
     z-index: 3;
-    margin: 50 0;
-    padding: 0 30px;
+    display: flex;
 }
 
 #paragraph3 {
-    z-index: 2;
-    position: relative;
+    z-index: 3;
     color: white;
-    margin-left: 50%;
-    margin-right: 40px;
     bottom: 200px;
 }
 
@@ -162,6 +158,12 @@ body {
     height: 300px;
     position: relative;
     bottom: 475px;
+}
+
+#padImage5 {
+    position: absolute;
+    width: 100%;
+    height: 800px;
 }
 
 /* <---Footer---> */
