@@ -1,9 +1,12 @@
 /* <---Overall Webpage Structure---> */
 *{
-    margin: 0.75px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0;
 }
+
 body {
-    background-color: darkblue;
+    background-image: url("bg.jpg")
 }
 
 /* <---Top Section---> */
@@ -18,6 +21,7 @@ body {
 #albumPileImage {
     width: 100%;
     height: 750px;
+    object-fit: cover;
 }
 
 #title {
@@ -28,7 +32,111 @@ body {
     height: 25%;
   }
   
-/* <---Paragraphs, Padding & Margin Modifications and Images---> */
+.paragraph1 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 50px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-color:darkblue;
+    border-radius: 20px;
+    z-index: 3;
+    top: 857px;
+}
+
+/* <---Carousel---> */
+
+.carousel {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    bottom: 450px;
+    margin-bottom: 0;
+}
+
+#CBG {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+    top: 1160px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#collage1 {
+    position: absolute;
+    width: 50%;
+    bottom: 450px;
+    right: 775px;
+}
+
+#collage2 {
+    position: absolute;
+    width: 50%;
+    bottom: 450px;
+    left: 775px;
+}
+
+/* <---Paragraph One---> */
+
+.FirstParagraph {
+    z-index: 3;
+}
+
+#paragraph2 {
+    z-index: 2; 
+    position: relative; 
+    color: white;
+    margin-left: 70px;
+    margin-right: 50%;
+    bottom: 810px;
+}
+
+#FirstParagraphImage {
+    z-index: 2;
+    position: absolute;
+    top: 1685px;
+    left: 57%;
+}
+
+/* <---Paragraph Two---> */
+
+.SecondParagraph {
+    z-index: 3;
+    display: flex;
+    position: relative;
+    bottom: 875px;
+}
+
+#paragraph3 {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: 175px;
+    margin-left: 50%;
+    margin-right: 70px;
+}
+
+#SecondParagraphImage {
+    position: absolute;
+    z-index: 1;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+/* <---Padding & Margin Modifications---> */
 
 #padImage1 {
     width: 100%;
@@ -38,19 +146,37 @@ body {
     border-bottom-width: 10px;
 }
 
-p {
-    font-size: 25px;
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 125px;
-    padding-right: 125px;
-}
-
 #padImage2 {
     width: 100%;
-    height: 400px;
-    border-top: solid;
-    border-bottom: solid;
+    height: 1200px;
+}
+
+#padImage3 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 2;
+    top: 2050px;
+}
+
+#padImage4 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 875px;
+}
+
+#padImage5 {
+    position: absolute;
+    width: 100%;
+    height: 775px;
+}
+
+#padImage6 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 100px;
 }
 
 /* <---Footer---> */
