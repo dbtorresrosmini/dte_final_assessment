@@ -136,6 +136,32 @@ body {
     margin-top: 70px;
 }
 
+/* <---Paragraph Three---> */
+
+.ThirdParagraph {
+    z-index: 3;
+    display: flex;
+    position: relative;
+    bottom: 100px;
+}
+
+#paragraph4 {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: 125px;
+    margin-left: 70px;
+    margin-right: 50%;
+}
+
+#ThirdParagraphImage {
+    width: 35%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 57%;
+    margin-top: 70px;
+}
+
 /* <---Padding & Margin Modifications---> */
 
 #padImage1 {
@@ -177,6 +203,20 @@ body {
     height: 300px;
     position: relative;
     bottom: 100px;
+}
+
+#padImage7 {
+    position: absolute;
+    width: 100%;
+    height: 775px;
+}
+
+#padImage8 {
+    z-index: 4;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 675px;
 }
 
 /* <---Footer---> */
