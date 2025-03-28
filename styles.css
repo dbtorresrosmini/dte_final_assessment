@@ -93,21 +93,36 @@ body {
 
 .FirstParagraph {
     z-index: 3;
+<<<<<<< HEAD
+=======
+    margin: 50px 0;
+    padding: 0 30px;
+>>>>>>> 76166a9ed835252f1ae5bbce684736925c838360
 }
 
 #paragraph2 {
     z-index: 2; 
     position: relative; 
     color: white;
+<<<<<<< HEAD
     margin-left: 70px;
     margin-right: 50%;
     bottom: 810px;
+=======
+    margin-left: 40px;
+    margin-right: 50%;
+    bottom: 700px;
+>>>>>>> 76166a9ed835252f1ae5bbce684736925c838360
 }
 
 #FirstParagraphImage {
     z-index: 2;
     position: absolute;
+<<<<<<< HEAD
     top: 1685px;
+=======
+    top: 1850px;
+>>>>>>> 76166a9ed835252f1ae5bbce684736925c838360
     left: 57%;
 }
 
@@ -116,6 +131,7 @@ body {
 .SecondParagraph {
     z-index: 3;
     display: flex;
+<<<<<<< HEAD
     position: relative;
     bottom: 875px;
 }
@@ -163,6 +179,21 @@ body {
 }
 
 /* <---Padding & Margin Modifications---> */
+=======
+}
+
+#paragraph3 {
+    z-index: 3;
+    color: white;
+    bottom: 200px;
+}
+
+/* <---Padding & Margin Modifications---> */
+
+.padding {
+    z-index: 1;
+}
+>>>>>>> 76166a9ed835252f1ae5bbce684736925c838360
 
 #padImage1 {
     width: 100%;
@@ -180,7 +211,11 @@ body {
 #padImage3 {
     position: absolute;
     width: 100%;
+<<<<<<< HEAD
     height: 300px;
+=======
+    height: 700px;
+>>>>>>> 76166a9ed835252f1ae5bbce684736925c838360
     z-index: 2;
     top: 2050px;
 }
@@ -189,12 +224,17 @@ body {
     width: 100%;
     height: 300px;
     position: relative;
+<<<<<<< HEAD
     bottom: 875px;
+=======
+    bottom: 475px;
+>>>>>>> 76166a9ed835252f1ae5bbce684736925c838360
 }
 
 #padImage5 {
     position: absolute;
     width: 100%;
+<<<<<<< HEAD
     height: 775px;
 }
 
@@ -217,6 +257,9 @@ body {
     height: 300px;
     position: relative;
     top: 675px;
+=======
+    height: 800px;
+>>>>>>> 76166a9ed835252f1ae5bbce684736925c838360
 }
 
 /* <---Footer---> */
