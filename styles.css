@@ -9,6 +9,36 @@ body {
     background-image: url("bg.jpg")
 }
 
+/* <---Navigation Bar---> */
+
+.NavBar {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.NavBarButtons{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* #link2 {
+    margin-left: 700px;
+} */
+
+/* #link3 {
+    margin-left: 1400px;
+} */
+
 /* <---Top Section---> */
 
 .titleSection {
@@ -271,15 +301,17 @@ body {
 #paragraph9 {
     z-index: 3;
     color: white;
+    font-size: 14px;
     margin-top: 50px;
     margin-left: 50%;
     margin-right: 70px;
+    padding-bottom: 20px;
 }
 
 #EighthParagraphImage {
     position: absolute;
     z-index: 1;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 70px;
     margin-right: 57%;
 }
@@ -416,12 +448,43 @@ body {
 /* <---Footer---> */
 
 .footer {
-    position: absolute;
-    padding-left: 12rem;
-    bottom: 500px;
+    position: relative;
+    top: 1480px;
+}
+
+.footerlinks {
+    font-size: 17px;
 }
 
 .footerAlbumReferences {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 12rem;
+    z-index: 3;
     color: white;
     text-decoration: none;
+}
+
+.footerArtistReferences {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 56rem;
+    z-index: 3;
+    color: white;
+    text-decoration: none;
+}
+
+.footerGenreReferences {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90rem;
+    z-index: 3;
+    color: white;
+    text-decoration: none;
+}
+
+#FooterBGImage {
+    position: absolute;
+    width: 100%;
+    height: 300px;
 }
