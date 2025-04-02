@@ -141,7 +141,6 @@ body {
 /* <---Paragraph Three---> */
 
 .ThirdParagraph {
-    z-index: 3;
     display: flex;
     position: relative;
     bottom: 100px;
@@ -167,7 +166,6 @@ body {
 /* <---Paragraph Four---> */
 
 .FourthParagraph {
-    z-index: 3;
     display: flex;
     position: relative;
     top: 650px;
@@ -192,7 +190,6 @@ body {
 /* <---Paragraph Five---> */
 
 .FifthParagraph {
-    z-index: 3;
     display: flex;
     position: relative;
     top: 1400px;
@@ -217,7 +214,6 @@ body {
 /* <---Paragraph Six---> */
 
 .SixthParagraph {
-    z-index: 3;
     display: flex;
     position: relative;
     top: 1425px;
@@ -233,6 +229,54 @@ body {
 }
 
 #SixthParagraphImage {
+    position: absolute;
+    z-index: 1;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 57%;
+}
+
+/* <---Paragraph Seven---> */
+
+.SeventhParagraph {
+    display: flex;
+    position: relative;
+    top: 1480px;
+}
+
+#paragraph8 {
+    z-index: 3;
+    color: white;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 50%;
+}
+
+#SeventhParagraphImage {
+    position: absolute;
+    z-index: 1;
+    margin-top: 70px;
+    margin-left: 57%;
+    margin-right: 70px;
+}
+
+/* <---Paragraph Eight---> */
+
+.EighthParagraph {
+    display: flex;
+    position: relative;
+    top: 1480px;
+}
+
+#paragraph9 {
+    z-index: 3;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50%;
+    margin-right: 70px;
+}
+
+#EighthParagraphImage {
     position: absolute;
     z-index: 1;
     margin-top: 70px;
@@ -324,7 +368,6 @@ body {
 }
 
 #padImage12 {
-    z-index: 4;
     width: 100%;
     height: 300px;
     position: relative;
@@ -338,11 +381,47 @@ body {
 }
 
 #padImage14 {
-    z-index: 4;
     width: 100%;
     height: 300px;
     position: relative;
     top: 1480px;
 }
 
+#padImage15 {
+    position: absolute;
+    width: 100%;
+    height: 775px;
+}
+
+#padImage16 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 1480px;
+}
+
+#padImage17 {
+    position: absolute;
+    width: 100%;
+    height: 775px;
+}
+
+#padImage18 {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 1480px;
+}
+
 /* <---Footer---> */
+
+.footer {
+    position: absolute;
+    padding-left: 12rem;
+    bottom: 500px;
+}
+
+.footerAlbumReferences {
+    color: white;
+    text-decoration: none;
+}
