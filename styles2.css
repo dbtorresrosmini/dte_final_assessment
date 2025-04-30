@@ -1,0 +1,895 @@
+/* <---Overall Webpage Structure---> */
+
+
+*{
+   margin-left: 2px;
+   margin-right: 2px;
+   padding: 0;
+ }
+ 
+ 
+ body {
+   background-image: url("images/bg2.jpg")
+ }
+ 
+ 
+ /* <---Navigation Bar---> */
+ 
+ 
+ .NavBar {
+   display: flex;
+   color: white;
+   text-decoration: none;
+   font-size: 2vh;
+   position: absolute;
+   width: 100%;
+   height: auto;
+   align-items: center;
+ }
+ 
+ 
+ .NavBarButtons {
+   width: 100%;
+   height: auto;
+   flex-direction: row;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 20px;
+ }
+ 
+ 
+ .NavBarLinks {
+   font-size: 50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-decoration: none;
+ }
+ 
+ 
+ #currentLink {
+   color: purple;
+ }
+ 
+ 
+ /* <---Top Section---> */
+ 
+ 
+ .titleSection {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+ }
+ #albumPileImage {
+   width: 100%;
+   height: 750px;
+   object-fit: cover;
+ }
+ 
+ 
+ #title {
+   position: absolute;
+   top: 200px;
+   text-align: center;
+   font-size: 200px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(16,16,25);
+   text-shadow:
+      -2px -2px 0 white,
+      2px -2px 0 white,
+      -2px 2px 0 white,
+      2px 2px 0 white;
+ }
+ 
+ 
+ .paragraph1 {
+   position: absolute;
+   background-color: black;
+   color: white;
+   font-size: 33px;
+   text-align: center;
+   margin-left: 75px;
+   margin-right: 75px;
+   padding-top: 50px;
+   padding-left: 125px;
+   padding-right: 125px;
+   padding-bottom: 50px;
+   border-style: solid;
+   border-color:darkred;
+   border-radius: 20px;
+   z-index: 3;
+   top: 857px;
+ }
+ 
+ 
+ /* <---Carousel---> */
+ 
+ 
+ .carousel {
+   display: flex;
+   width: 475px;
+   justify-content: center;
+   align-items: center;
+   margin-left:auto;
+   margin-right:auto;
+   bottom: 450px;
+   margin-bottom: 0;
+ }
+ 
+ 
+ #CBG {
+   display: flex;
+   width: 100%;
+   height: 500px;
+   position: absolute;
+   z-index: 0;
+   top: 1160px;
+   margin-left: 2px;
+   margin-right: 2px;
+ }
+ 
+ 
+ #collage1 {
+   position: absolute;
+   width: 475px;
+   bottom: 450px;
+   margin-right: 1250px;
+ }
+ 
+ 
+ #collage2 {
+   position: absolute;
+   width: 475px;
+   bottom: 450px;
+   margin-left: 1250px;
+ }
+ 
+ 
+ /* <---Paragraph One---> */
+ 
+ 
+ .FirstParagraph {
+   z-index: 3;
+   margin: 50px 0;
+   padding: 0 30px;
+   height: 600px;
+ }
+ 
+ 
+ #paragraph2 {
+   z-index: 2;
+   position: relative;
+   color: white;
+   font-size: 20px;
+   margin-top: 75px;
+   margin-left: 70px;
+   margin-right: 50%;
+   bottom: 820px;
+ }
+ 
+ 
+ #p1Title {
+   margin-left: 70px;
+   color: grey;
+   z-index: 2;
+   position: relative;
+   bottom: 750px;
+ }
+ 
+ 
+ #FirstParagraphImage {
+   z-index: 2;
+   width: 600px;
+   position: absolute;
+   top: 1750px;
+   left: 57%;
+ }
+ 
+ 
+ /* <---Paragraph Two---> */
+ 
+ 
+ .SecondParagraph {
+   z-index: 3;
+   display: flex;
+   position: relative;
+   bottom: 750px;
+ }
+ 
+ 
+ #paragraph3 {
+   position: absolute;
+   z-index: 3;
+   color: white;
+   font-size: 21px;
+   margin-top: 150px;
+   margin-left: 50%;
+   margin-right: 70px;
+ }
+ 
+ 
+ #p2Title {
+   margin-top: 85px;
+   margin-left: 50%;
+   margin-right: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #SecondParagraphImage {
+   width: 600px;
+   position: absolute;
+   z-index: 1;
+   margin-left: 150px;
+   margin-top: 90px;
+ }
+ 
+ 
+ /* <---Paragraph Three---> */
+ 
+ 
+ .ThirdParagraph {
+   display: flex;
+   position: relative;
+   bottom: 100px;
+ }
+ 
+ 
+ #paragraph4 {
+   position: absolute;
+   z-index: 3;
+   color: white;
+   font-size: 22px;
+   margin-top: 175px;
+   margin-left: 70px;
+   margin-right: 50%;
+ }
+ 
+ 
+ #p3Title {
+   margin-top: 110px;
+   margin-left: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #ThirdParagraphImage {
+   width: 650px;
+   position: absolute;
+   z-index: 1;
+   margin-left: 57%;
+   margin-top: 50px;
+ }
+ 
+ 
+ /* <---Paragraph Four---> */
+ 
+ 
+ .FourthParagraph {
+   display: flex;
+   position: relative;
+   top: 650px;
+ }
+ 
+ 
+ #paragraph5 {
+   position: absolute;
+   z-index: 3;
+   font-size: 22px;
+   color: white;
+   margin-top: 160px;
+   margin-left: 50%;
+   margin-right: 70px;
+ }
+ 
+ 
+ #p4Title {
+   margin-top: 85px;
+   margin-left: 50%;
+   margin-right: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #FourthParagraphImage {
+   width: 650px;
+   position: absolute;
+   z-index: 1;
+   margin-left: 150px;
+   margin-top: 80px;
+ }
+ 
+ 
+ /* <---Paragraph Five---> */
+ 
+ 
+ .FifthParagraph {
+   height: 775px;
+   display: flex;
+   position: relative;
+   top: 1420px;
+ }
+ 
+ 
+ #paragraph6 {
+   z-index: 3;
+   font-size: 21px;
+   color: white;
+   margin-top: 190px;
+   margin-left: 70px;
+   margin-right: 50%;
+ }
+ 
+ 
+ #p5Title {
+   margin-top: 120px;
+   margin-left: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #FifthParagraphImage {
+   width: 650px;
+   position: absolute;
+   z-index: 1;
+   margin-left: 57%;
+   margin-top: 80px;
+ }
+ 
+ 
+ /* <---Paragraph Six---> */
+ 
+ 
+ .SixthParagraph {
+   height: 750px;
+   display: flex;
+   position: relative;
+   top: 1425px;
+ }
+ 
+ 
+ #paragraph7 {
+   z-index: 3;
+   font-size: 23px;
+   color: white;
+   margin-top: 190px;
+   margin-left: 50%;
+   margin-right: 70px;
+ }
+ 
+ 
+ #p6Title {
+   margin-top: 125px;
+   margin-left: 50%;
+   margin-right: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #SixthParagraphImage {
+   width: 650px;
+   position: absolute;
+   z-index: 1;
+   margin-top: 90px;
+   margin-left: 80px;
+   margin-right: 57%;
+ }
+ 
+ 
+ /* <---Paragraph Seven---> */
+ 
+ 
+ .SeventhParagraph {
+   height: 775px;
+   display: flex;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #paragraph8 {
+   z-index: 3;
+   font-size: 20px;
+   color: white;
+   margin-top: 185px;
+   margin-left: 70px;
+   margin-right: 50%;
+ }
+ 
+ 
+ #p7Title {
+   margin-top: 120px;
+   margin-left: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #SeventhParagraphImage {
+   position: absolute;
+   z-index: 1;
+   width: 650px;
+   margin-top: 70px;
+   margin-left: 57%;
+   margin-right: 70px;
+ }
+ 
+ 
+ /* <---Paragraph Eight---> */
+ 
+ 
+ .EighthParagraph {
+   height: 775px;
+   display: flex;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #paragraph9 {
+   z-index: 3;
+   color: white;
+   font-size: 21px;
+   margin-top: 190px;
+   margin-left: 50%;
+   margin-right: 70px;
+   padding-bottom: 20px;
+ }
+ 
+ 
+ #p8Title {
+   margin-top: 125px;
+   margin-left: 50%;
+   margin-right: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #EighthParagraphImage {
+   width: 650px;
+   position: absolute;
+   z-index: 1;
+   margin-top: 60px;
+   margin-left: 70px;
+   margin-right: 57%;
+ }
+ 
+ 
+ /* <---Paragraph Nine---> */
+ 
+ 
+ .NinthParagraph {
+   height: 775px;
+   display: flex;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #paragraph10 {
+   z-index: 3;
+   font-size: 20px;
+   color: white;
+   margin-top: 185px;
+   margin-left: 70px;
+   margin-right: 50%;
+ }
+ 
+ 
+ #p9Title {
+   margin-top: 120px;
+   margin-left: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #NinthParagraphImage {
+   position: absolute;
+   z-index: 1;
+   width: 650px;
+   margin-top: 50px;
+   margin-left: 57%;
+   margin-right: 70px;
+ }
+ 
+ 
+ /* <---Paragraph Ten---> */
+ 
+ 
+ .TenthParagraph {
+   height: 775px;
+   display: flex;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #paragraph11 {
+   z-index: 3;
+   color: white;
+   font-size: 21px;
+   margin-top: 190px;
+   margin-left: 50%;
+   margin-right: 70px;
+   padding-bottom: 20px;
+ }
+ 
+ 
+ #p10Title {
+   margin-top: 125px;
+   margin-left: 50%;
+   margin-right: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #TenthParagraphImage {
+   position: absolute;
+   z-index: 1;
+   width: 650px;
+   margin-top: 50px;
+   margin-left: 70px;
+   margin-right: 57%;
+ }
+ 
+ 
+ /* <---Paragraph Eleven---> */
+ 
+ 
+ .EleventhParagraph {
+   height: 775px;
+   display: flex;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #paragraph12 {
+   z-index: 3;
+   font-size: 20px;
+   color: white;
+   margin-top: 185px;
+   margin-left: 70px;
+   margin-right: 50%;
+ }
+ 
+ 
+ #p11Title {
+   margin-top: 120px;
+   margin-left: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #EleventhParagraphImage {
+   position: absolute;
+   z-index: 1;
+   width: 650px;
+   margin-top: 50px;
+   margin-left: 57%;
+   margin-right: 70px;
+ }
+ 
+ 
+ /* <---Paragraph Twelve---> */
+ 
+ 
+ .TwelfthParagraph {
+   height: 775px;
+   display: flex;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #paragraph13 {
+   z-index: 3;
+   color: white;
+   font-size: 21px;
+   margin-top: 115px;
+   margin-left: 50%;
+   margin-right: 70px;
+   padding-bottom: 20px;
+ }
+ 
+ 
+ #p12Title {
+   margin-top: 50px;
+   margin-left: 50%;
+   margin-right: 70px;
+   color: grey;
+   z-index: 2;
+   position: absolute;
+ }
+ 
+ 
+ #TwelfthParagraphImage {
+   position: absolute;
+   z-index: 1;
+   width: 650px;
+   margin-top: 50px;
+   margin-left: 70px;
+   margin-right: 57%;
+ }
+ 
+ 
+ /* <---Padding & Margin Modifications---> */
+ 
+ 
+ .padding {
+   z-index: 1;
+ }
+ 
+ 
+ #padImage1 {
+   width: 100%;
+   height: 125px;
+   border-top: solid;
+   border-bottom: solid;
+   border-bottom-width: 10px;
+ }
+ 
+ 
+ #padImage2 {
+   width: 100%;
+   height: 1200px;
+ }
+ 
+ 
+ #padImage3 {
+   position: absolute;
+   width: 100%;
+   height: 800px;
+   z-index: 2;
+   top: 2050px;
+ }
+ 
+ 
+ #padImage4 {
+   z-index: 4;
+   width: 100%;
+   height: 200px;
+   position: relative;
+   bottom: 750px;
+ }
+ 
+ 
+ #padImage5 {
+   position: absolute;
+   width: 100%;
+   height: 775px;
+ }
+ 
+ 
+ #padImage6 {
+   width: 100%;
+   height: 300px;
+   position: relative;
+   bottom: 100px;
+ }
+ 
+ 
+ #padImage7 {
+   position: absolute;
+   width: 100%;
+   height: 835px;
+ }
+ 
+ 
+ #padImage8 {
+   z-index: 4;
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 675px;
+ }
+ 
+ 
+ #padImage9 {
+   position: absolute;
+   width: 100%;
+   height: 775px;
+ }
+ 
+ 
+ #padImage10 {
+   z-index: 4;
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 1425px;
+ }
+ 
+ 
+ #padImage11 {
+   position: absolute;
+   width: 100%;
+   height: 800px;
+ }
+ 
+ 
+ #padImage12 {
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 1425px;
+ }
+ 
+ 
+ #padImage13 {
+   position: absolute;
+   width: 100%;
+   height: 850px;
+ }
+ 
+ 
+ #padImage14 {
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #padImage15 {
+   position: absolute;
+   width: 100%;
+   height: 775px;
+ }
+ 
+ 
+ #padImage16 {
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #padImage17 {
+   position: absolute;
+   width: 100%;
+   height: 775px;
+ }
+ 
+ 
+ #padImage18 {
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #padImage19 {
+   position: absolute;
+   width: 100%;
+   height: 775px;
+ }
+ 
+ 
+ #padImage20 {
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #padImage21 {
+   position: absolute;
+   width: 100%;
+   height: 775px;
+ }
+ 
+ 
+ #padImage22 {
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #padImage23 {
+   position: absolute;
+   width: 100%;
+   height: 775px;
+ }
+ 
+ 
+ #padImage24 {
+   width: 100%;
+   height: 200px;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ #padImage25 {
+   position: absolute;
+   width: 100%;
+   height: 775px;
+ }
+ 
+ 
+ #padImage26 {
+   width: 100%;
+   height: 40px;
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ /* <---Footer---> */
+ 
+ 
+ .footer {
+   position: relative;
+   top: 1480px;
+ }
+ 
+ 
+ .footerlinks {
+   font-size: 15px;
+ }
+ 
+ 
+ .footerSingleReferences {
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 12rem;
+   z-index: 3;
+   color: white;
+   text-decoration: none;
+ }
+ 
+ 
+ .footerArtistReferences {
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 56rem;
+   z-index: 3;
+   color: white;
+   text-decoration: none;
+ }
+ 
+ 
+ .footerFeatureReferences {
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 90rem;
+   z-index: 3;
+   color: white;
+   text-decoration: none;
+ }
+ 
+ 
+ #FooterBGImage {
+   position: absolute;
+   width: 100%;
+   height: 375px;
+   padding-bottom: 4px;
+ }
+ 

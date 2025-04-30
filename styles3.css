@@ -4,15 +4,15 @@
     margin-left: 2px;
     margin-right: 2px;
     padding: 0;
-  }
-  
-  body {
+ }
+ 
+ body {
     background-image: url("images/bg.jpg")
-  }
-  
-  /* <---Navigation Bar---> */
-
-  .NavBar {
+ }
+ 
+ /* <---Navigation Bar---> */
+ 
+ .NavBar {
     display: flex;
     color: white;
     text-decoration: none;
@@ -21,9 +21,9 @@
     width: 100%;
     height: auto;
     align-items: center;
-  }
-  
-  .NavBarButtons {
+ }
+ 
+ .NavBarButtons {
     width: 100%;
     height: auto;
     flex-direction: row;
@@ -31,54 +31,53 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-  }
-  
-  .NavBarLinks {
+ }
+ 
+ .NavBarLinks {
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-  }
-  
-  #currentLink {
+ }
+ 
+ #currentLink {
     color: purple;
-  }
-  
-  /* <---Top Section---> */
-  
-  .titleSection {
+ }
+ 
+ /* <---Top Section---> */
+ 
+ .titleSection {
     margin-top: -5px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-  }
-
-  #albumPileImage {
+ }
+ #albumPileImage {
     width: 100%;
     height: 750px;
     object-fit: cover;
-  }
-  
-  #title {
+ }
+ 
+ #title {
     position: absolute;
     top: 200px;
     text-align: center;
     font-size: 200px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(60,0,90);
+    color: darkblue;
     text-shadow:
        -2px -2px 0 white,
        2px -2px 0 white,
        -2px 2px 0 white,
        2px 2px 0 white;
   }
-  
+ 
   .paragraph1 {
     position: absolute;
     background-color: black;
     color: white;
-    font-size: 26px;
+    font-size: 33px;
     text-align: center;
     margin-left: 75px;
     margin-right: 75px;
@@ -87,15 +86,16 @@
     padding-right: 125px;
     padding-bottom: 50px;
     border-style: solid;
-    border-color: darkmagenta;
+    border-color: darkblue;
     border-radius: 20px;
     z-index: 3;
-    top: 857px;
-  }
-  
-  /* <---Carousel---> */
-  
-  .carousel {
+    height: 300px;
+    top: 865px;
+ }
+ 
+ /* <---Carousel---> */
+ 
+ .carousel {
     display: flex;
     width: 475px;
     justify-content: center;
@@ -104,9 +104,9 @@
     margin-right:auto;
     bottom: 450px;
     margin-bottom: 0;
-  }
-  
-  #CBG {
+ }
+ 
+ #CBG {
     display: flex;
     width: 100%;
     height: 500px;
@@ -115,57 +115,65 @@
     top: 1160px;
     margin-left: 2px;
     margin-right: 2px;
-  }
-  
-  #collage1 {
+ }
+ 
+ #collage1 {
     position: absolute;
     width: 475px;
     bottom: 450px;
     margin-right: 1250px;
-  }
-  
-  #collage2 {
+ }
+ 
+ #collage2 {
     position: absolute;
     width: 475px;
     bottom: 450px;
     margin-left: 1250px;
-  }
-
-  /* <---Paragraph One---> */
-    
-  .FirstParagraph {
+ }
+ 
+ /* <---Paragraph One---> */
+ 
+ .FirstParagraph {
     z-index: 3;
     margin: 50px 0;
     padding: 0 30px;
-  }
-  
-  #paragraph2 {
+ }
+ 
+ #paragraph2 {
     z-index: 2;
     position: relative;
     color: white;
     font-size: 20px;
     margin-left: 70px;
     margin-right: 50%;
-    bottom: 820px;
-  }
-  
-  #FirstParagraphImage {
+    bottom: 800px;
+ }
+
+ #p1Title {
+    margin-left: 70px;
+    color: grey;
+    z-index: 2;
+    position: relative;
+    bottom: 800px;
+ }
+ 
+ #FirstParagraphImage {
     z-index: 2;
     position: absolute;
     top: 1750px;
     left: 57%;
-  }
-  
-  /* <---Paragraph Two---> */
-  
-  .SecondParagraph {
+ }
+ 
+ /* <---Paragraph Two---> */
+ 
+ .SecondParagraph {
     z-index: 3;
     display: flex;
     position: relative;
     bottom: 675px;
-  }
-  
-  #paragraph3 {
+ }
+ 
+ #paragraph3 {
     position: absolute;
     z-index: 3;
     color: white;
@@ -173,23 +181,23 @@
     margin-top: 80px;
     margin-left: 50%;
     margin-right: 70px;
-  }
-  
-  #SecondParagraphImage {
+ }
+ 
+ #SecondParagraphImage {
     position: absolute;
     z-index: 1;
     margin-left: 150px;
     margin-top: 70px;
-  }
-  
-  /* <---Paragraph Three---> */
-  
-  .ThirdParagraph {
+ }
+ 
+ /* <---Paragraph Three---> */
+ 
+ .ThirdParagraph {
     display: flex;
     position: relative;
-  }
-  
-  #paragraph4 {
+ }
+ 
+ #paragraph4 {
     position: absolute;
     z-index: 3;
     color: white;
@@ -197,25 +205,25 @@
     margin-top: 100px;
     margin-left: 70px;
     margin-right: 50%;
-  }
-  
-  #ThirdParagraphImage {
+ }
+ 
+ #ThirdParagraphImage {
     width: 650px;
     position: absolute;
     z-index: 1;
     margin-left: 57%;
     margin-top: 70px;
-  }
-  
-  /* <---Paragraph Four---> */
-  
-  .FourthParagraph {
+ }
+ 
+ /* <---Paragraph Four---> */
+ 
+ .FourthParagraph {
     display: flex;
     position: relative;
     top: 750px;
-  }
-  
-  #paragraph5 {
+ }
+ 
+ #paragraph5 {
     position: absolute;
     z-index: 3;
     font-size: 20px;
@@ -223,294 +231,130 @@
     margin-top: 125px;
     margin-left: 50%;
     margin-right: 70px;
-  }
-  
-  #FourthParagraphImage {
+ }
+ 
+ #FourthParagraphImage {
     position: absolute;
     z-index: 1;
     margin-left: 150px;
     margin-top: 80px;
-  }
-  
-  /* <---Paragraph Five---> */
-  
-  .FifthParagraph {
-    height: 775px;
-    display: flex;
-    position: relative;
-    top: 1520px;
-  }
-  
-  #paragraph6 {
-    z-index: 3;
-    font-size: 20px;
-    color: white;
-    margin-top: 150px;
-    margin-left: 70px;
-    margin-right: 50%;
-  }
-  
-  #FifthParagraphImage {
-    position: absolute;
+ }
+ 
+ /* <---Padding & Margin Modifications---> */
+ 
+ .padding {
     z-index: 1;
-    margin-left: 57%;
-    margin-top: 80px;
-  }
-  
-  /* <---Paragraph Six---> */
-  
-  .SixthParagraph {
-    height: 775px;
-    display: flex;
-    position: relative;
-    top: 1525px;
-  }
-  
-  #paragraph7 {
-    z-index: 3;
-    font-size: 20px;
-    color: white;
-    margin-top: 125px;
-    margin-left: 50%;
-    margin-right: 70px;
-  }
-   
-  #SixthParagraphImage {
-    position: absolute;
-    z-index: 1;
-    margin-top: 90px;
-    margin-left: 70px;
-    margin-right: 57%;
-  }
-    
-  /* <---Paragraph Seven---> */
-  
-  .SeventhParagraph {
-    height: 775px;
-    display: flex;
-    position: relative;
-    top: 1580px;
-  }
-   
-  #paragraph8 {
-    z-index: 3;
-    font-size: 20px;
-    color: white;
-    margin-top: 70px;
-    margin-left: 70px;
-    margin-right: 50%;
-  }
-  
-  #SeventhParagraphImage {
-    position: absolute;
-    z-index: 1;
-    margin-top: 70px;
-    margin-left: 57%;
-    margin-right: 70px;
-  }
-  
-  /* <---Paragraph Eight---> */
-  
-  .EighthParagraph {
-    height: 775px;
-    display: flex;
-    position: relative;
-    top: 1580px;
-  }
-  
-  #paragraph9 {
-    z-index: 3;
-    color: white;
-    font-size: 20px;
-    margin-top: 90px;
-    margin-left: 50%;
-    margin-right: 70px;
-    padding-bottom: 20px;
-  }
-  
-  #EighthParagraphImage {
-    position: absolute;
-    z-index: 1;
-    margin-top: 70px;
-    margin-left: 70px;
-    margin-right: 57%;
-  }
-  
-  /* <---Padding & Margin Modifications---> */
-  
-  .padding {
-    z-index: 1;
-  }
-  
-  #padImage1 {
+ }
+ 
+ #padImage1 {
     width: 100%;
     height: 125px;
     border-top: solid;
     border-bottom: solid;
     border-bottom-width: 10px;
-  }
-  
-  #padImage2 {
+ }
+ 
+ #padImage2 {
     width: 100%;
     height: 1200px;
-  }
-  
-  #padImage3 {
+ }
+ 
+ #padImage3 {
     position: absolute;
     width: 100%;
-    height: 800px;
+    height: 520px;
     z-index: 2;
     top: 2050px;
-  }
-  
-  #padImage4 {
+ }
+ 
+ #padImage4 {
     z-index: 4;
     width: 100%;
     height: 200px;
     position: relative;
     bottom: 650px;
-  }
-  
-  #padImage5 {
+ }
+ 
+ #padImage5 {
     position: absolute;
     width: 100%;
     height: 775px;
-  }
-  
-  #padImage6 {
+ }
+ 
+ #padImage6 {
     width: 100%;
     height: 300px;
     position: relative;
-  }
-  
-  #padImage7 {
+ }
+ 
+ #padImage7 {
     position: absolute;
     width: 100%;
     height: 775px;
-  }
-  
-  #padImage8 {
+ }
+ 
+ #padImage8 {
     z-index: 4;
     width: 100%;
     height: 200px;
     position: relative;
     top: 775px;
-  }
-  
-  #padImage9 {
+ }
+ 
+ #padImage9 {
     position: absolute;
     width: 100%;
     height: 775px;
-  }
-  
-  #padImage10 {
-    z-index: 4;
-    width: 100%;
-    height: 200px;
-    position: relative;
-    top: 1525px;
-  }
-  
-  #padImage11 {
-    position: absolute;
-    width: 100%;
-    height: 800px;
-  }
-  
-  #padImage12 {
-    width: 100%;
-    height: 200px;
-    position: relative;
-    top: 1525px;
-  }
-  
-  #padImage13 {
-    position: absolute;
-    width: 100%;
-    height: 850px;
-  }
-  
-  #padImage14 {
-    width: 100%;
-    height: 200px;
-    position: relative;
-    top: 1580px;
-  }
-  
-  #padImage15 {
-    position: absolute;
-    width: 100%;
-    height: 775px;
-  }
-  
-  #padImage16 {
-    width: 100%;
-    height: 200px;
-    position: relative;
-    top: 1580px;
-  }
-  
-  #padImage17 {
-    position: absolute;
-    width: 100%;
-    height: 775px;
-  }
-  
-  #padImage18 {
+ }
+ 
+ #padImage10 {
     width: 100%;
     height: 40px;
     position: relative;
-    top: 1580px;
-  }
-  
-  /* <---Footer---> */
-  
-  
-  .footer {
+    top: 1525px;
+ }
+ 
+ /* <---Footer---> */
+ 
+ .footer {
     position: relative;
-    top: 1580px;
-  }
-  
-  
-  .footerlinks {
+    top: 1525px;
+ }
+ 
+ .footerlinks {
     font-size: 17px;
-  }
-  
-  
-  .footerAlbumReferences {
+ }
+ 
+ .footerAlbumReferences {
     position: absolute;
     margin-top: 20px;
     margin-left: 12rem;
     z-index: 3;
     color: white;
     text-decoration: none;
-  }
-  
-  
-  .footerArtistReferences {
+ }
+ 
+ .footerArtistReferences {
     position: absolute;
     margin-top: 20px;
     margin-left: 56rem;
     z-index: 3;
     color: white;
     text-decoration: none;
-  }
-  
-  
-  .footerFeatureReferences {
+ }
+ 
+ .footerFeatureReferences {
     position: absolute;
     margin-top: 20px;
     margin-left: 90rem;
     z-index: 3;
     color: white;
     text-decoration: none;
-  }
-  
-  
-  #FooterBGImage {
+ }
+ 
+ #FooterBGImage {
     position: absolute;
     width: 100%;
     height: 315px;
     padding-bottom: 4px;
-  }
-  
+ }
