@@ -1,37 +1,18 @@
 /* <---Overall Webpage Structure---> */
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
 *{
    margin-left: 2px;
    margin-right: 2px;
    padding: 0;
-<<<<<<< HEAD
  }
- 
  
  body {
    background-image: url("images/bg2.jpg")
  }
- 
- 
+  
  /* <---Navigation Bar---> */
  
- 
  .NavBar {
-=======
-}
-
-body {
-   background-image: url("images/bg2.jpg")
-}
-
-/* <---Navigation Bar---> */
-
-.NavBar {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    display: flex;
    color: white;
    text-decoration: none;
@@ -40,16 +21,9 @@ body {
    width: 100%;
    height: auto;
    align-items: center;
-<<<<<<< HEAD
  }
  
- 
  .NavBarButtons {
-=======
-}
-
-.NavBarButtons {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    width: 100%;
    height: auto;
    flex-direction: row;
@@ -57,9 +31,7 @@ body {
    justify-content: space-around;
    align-items: center;
    margin-top: 20px;
-<<<<<<< HEAD
  }
- 
  
  .NavBarLinks {
    font-size: 50px;
@@ -67,59 +39,26 @@ body {
    text-decoration: none;
  }
  
- 
  #currentLink {
    color: purple;
  }
  
- 
  /* <---Top Section---> */
  
- 
  .titleSection {
-
-=======
-}
-
-.NavBarLinks {
-   font-size: 50px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   text-decoration: none;
-}
-
-#currentLink {
-   color: purple;
-}
-
-/* <---Top Section---> */
-
-.titleSection {
-   margin-top: -5px;
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    display: flex;
    justify-content: center;
    align-items: center;
    position: relative;
-<<<<<<< HEAD
  }
+
  #albumPileImage {
    width: 100%;
    height: 750px;
    object-fit: cover;
  }
  
- 
  #title {
-=======
-}
-#albumPileImage {
-   width: 100%;
-   height: 750px;
-   object-fit: cover;
-}
-
-#title {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    position: absolute;
    top: 200px;
    text-align: center;
@@ -133,21 +72,12 @@ body {
       -2px 2px 0 white,
       2px 2px 0 white;
  }
-<<<<<<< HEAD
  
- 
-=======
-
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
  .paragraph1 {
    position: absolute;
    background-color: black;
    color: white;
-<<<<<<< HEAD
    font-size: 33px;
-=======
-   font-size: 26px;
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    text-align: center;
    margin-left: 75px;
    margin-right: 75px;
@@ -156,49 +86,26 @@ body {
    padding-right: 125px;
    padding-bottom: 50px;
    border-style: solid;
-<<<<<<< HEAD
    border-color:darkred;
    border-radius: 20px;
    z-index: 3;
    top: 857px;
  }
  
- 
  /* <---Carousel---> */
- 
  
  .carousel {
    display: flex;
    width: 475px;
-=======
-   border-color:darkblue;
-   border-radius: 20px;
-   z-index: 3;
-   top: 857px;
-}
-
-/* <---Carousel---> */
-
-.carousel {
-   display: flex;
-   width: 50%;
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    justify-content: center;
    align-items: center;
    margin-left:auto;
    margin-right:auto;
    bottom: 450px;
    margin-bottom: 0;
-<<<<<<< HEAD
  }
  
- 
  #CBG {
-=======
-}
-
-#CBG {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    display: flex;
    width: 100%;
    height: 500px;
@@ -207,9 +114,7 @@ body {
    top: 1160px;
    margin-left: 2px;
    margin-right: 2px;
-<<<<<<< HEAD
  }
- 
  
  #collage1 {
    position: absolute;
@@ -218,17 +123,14 @@ body {
    margin-right: 1250px;
  }
  
- 
  #collage2 {
    position: absolute;
    width: 475px;
    bottom: 450px;
    margin-left: 1250px;
  }
- 
- 
- /* <---Paragraph One---> */
- 
+
+  /* <---Paragraph One---> */
  
  .FirstParagraph {
    z-index: 3;
@@ -237,46 +139,16 @@ body {
    height: 600px;
  }
  
- 
  #paragraph2 {
-=======
-}
-
-#collage1 {
-   position: absolute;
-   width: 50%;
-   bottom: 450px;
-   right: 775px;
-}
-
-#collage2 {
-   position: absolute;
-   width: 50%;
-   bottom: 450px;
-   left: 775px;
-}
-
-/* <---Paragraph One---> */
-
-.FirstParagraph {
-   z-index: 3;
-   margin: 50px 0;
-   padding: 0 30px;
-}
-
-#paragraph2 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    z-index: 2;
    position: relative;
    color: white;
    font-size: 20px;
-<<<<<<< HEAD
    margin-top: 75px;
    margin-left: 70px;
    margin-right: 50%;
    bottom: 820px;
  }
- 
  
  #p1Title {
    margin-left: 70px;
@@ -286,7 +158,6 @@ body {
    bottom: 750px;
  }
  
- 
  #FirstParagraphImage {
    z-index: 2;
    width: 600px;
@@ -295,9 +166,7 @@ body {
    left: 57%;
  }
  
- 
  /* <---Paragraph Two---> */
- 
  
  .SecondParagraph {
    z-index: 3;
@@ -305,7 +174,6 @@ body {
    position: relative;
    bottom: 750px;
  }
- 
  
  #paragraph3 {
    position: absolute;
@@ -317,7 +185,6 @@ body {
    margin-right: 70px;
  }
  
- 
  #p2Title {
    margin-top: 85px;
    margin-left: 50%;
@@ -327,7 +194,6 @@ body {
    position: absolute;
  }
  
- 
  #SecondParagraphImage {
    width: 600px;
    position: absolute;
@@ -336,16 +202,13 @@ body {
    margin-top: 90px;
  }
  
- 
  /* <---Paragraph Three---> */
- 
  
  .ThirdParagraph {
    display: flex;
    position: relative;
    bottom: 100px;
  }
- 
  
  #paragraph4 {
    position: absolute;
@@ -357,7 +220,6 @@ body {
    margin-right: 50%;
  }
  
- 
  #p3Title {
    margin-top: 110px;
    margin-left: 70px;
@@ -365,7 +227,6 @@ body {
    z-index: 2;
    position: absolute;
  }
- 
  
  #ThirdParagraphImage {
    width: 650px;
@@ -375,16 +236,13 @@ body {
    margin-top: 50px;
  }
  
- 
  /* <---Paragraph Four---> */
- 
  
  .FourthParagraph {
    display: flex;
    position: relative;
    top: 650px;
  }
- 
  
  #paragraph5 {
    position: absolute;
@@ -396,7 +254,6 @@ body {
    margin-right: 70px;
  }
  
- 
  #p4Title {
    margin-top: 85px;
    margin-left: 50%;
@@ -406,120 +263,22 @@ body {
    position: absolute;
  }
  
- 
  #FourthParagraphImage {
    width: 650px;
-=======
-   margin-left: 70px;
-   margin-right: 50%;
-   bottom: 820px;
-}
-
-#FirstParagraphImage {
-   z-index: 2;
-   position: absolute;
-   top: 1750px;
-   left: 57%;
-}
-
-/* <---Paragraph Two---> */
-
-.SecondParagraph {
-   z-index: 3;
-   display: flex;
-   position: relative;
-   bottom: 775px;
-}
-
-#paragraph3 {
-   position: absolute;
-   z-index: 3;
-   color: white;
-   font-size: 19px;
-   margin-top: 80px;
-   margin-left: 50%;
-   margin-right: 70px;
-}
-
-#SecondParagraphImage {
-   position: absolute;
-   z-index: 1;
-   margin-left: 150px;
-   margin-top: 70px;
-}
-
-/* <---Paragraph Three---> */
-
-.ThirdParagraph {
-   display: flex;
-   position: relative;
-   bottom: 100px;
-}
-
-#paragraph4 {
-   position: absolute;
-   z-index: 3;
-   color: white;
-   font-size: 20px;
-   margin-top: 100px;
-   margin-left: 70px;
-   margin-right: 50%;
-}
-
-#ThirdParagraphImage {
-   width: 35%;
-   position: absolute;
-   z-index: 1;
-   margin-left: 57%;
-   margin-top: 70px;
-}
-
-/* <---Paragraph Four---> */
-
-.FourthParagraph {
-   display: flex;
-   position: relative;
-   top: 650px;
-}
-
-#paragraph5 {
-   position: absolute;
-   z-index: 3;
-   font-size: 20px;
-   color: white;
-   margin-top: 125px;
-   margin-left: 50%;
-   margin-right: 70px;
-}
-
-#FourthParagraphImage {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    position: absolute;
    z-index: 1;
    margin-left: 150px;
    margin-top: 80px;
-<<<<<<< HEAD
  }
- 
  
  /* <---Paragraph Five---> */
  
- 
  .FifthParagraph {
-=======
-}
-
-/* <---Paragraph Five---> */
-
-.FifthParagraph {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    height: 775px;
    display: flex;
    position: relative;
    top: 1420px;
-<<<<<<< HEAD
  }
- 
  
  #paragraph6 {
    z-index: 3;
@@ -530,7 +289,6 @@ body {
    margin-right: 50%;
  }
  
- 
  #p5Title {
    margin-top: 120px;
    margin-left: 70px;
@@ -539,33 +297,15 @@ body {
    position: absolute;
  }
  
- 
  #FifthParagraphImage {
    width: 650px;
-=======
-}
-
-#paragraph6 {
-   z-index: 3;
-   font-size: 20px;
-   color: white;
-   margin-top: 150px;
-   margin-left: 70px;
-   margin-right: 50%;
-}
-
-#FifthParagraphImage {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    position: absolute;
    z-index: 1;
    margin-left: 57%;
    margin-top: 80px;
-<<<<<<< HEAD
  }
  
- 
  /* <---Paragraph Six---> */
- 
  
  .SixthParagraph {
    height: 750px;
@@ -573,7 +313,6 @@ body {
    position: relative;
    top: 1425px;
  }
- 
  
  #paragraph7 {
    z-index: 3;
@@ -584,7 +323,6 @@ body {
    margin-right: 70px;
  }
  
- 
  #p6Title {
    margin-top: 125px;
    margin-left: 50%;
@@ -593,7 +331,6 @@ body {
    z-index: 2;
    position: absolute;
  }
- 
  
  #SixthParagraphImage {
    width: 650px;
@@ -604,51 +341,14 @@ body {
    margin-right: 57%;
  }
  
- 
  /* <---Paragraph Seven---> */
  
- 
  .SeventhParagraph {
-=======
-}
-
-/* <---Paragraph Six---> */
-
-.SixthParagraph {
-   height: 775px;
-   display: flex;
-   position: relative;
-   top: 1425px;
-}
-
-#paragraph7 {
-   z-index: 3;
-   font-size: 20px;
-   color: white;
-   margin-top: 125px;
-   margin-left: 50%;
-   margin-right: 70px;
-}
-
-#SixthParagraphImage {
-   position: absolute;
-   z-index: 1;
-   margin-top: 90px;
-   margin-left: 70px;
-   margin-right: 57%;
-}
-
-/* <---Paragraph Seven---> */
-
-.SeventhParagraph {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    height: 775px;
    display: flex;
    position: relative;
    top: 1480px;
-<<<<<<< HEAD
  }
- 
  
  #paragraph8 {
    z-index: 3;
@@ -659,7 +359,6 @@ body {
    margin-right: 50%;
  }
  
- 
  #p7Title {
    margin-top: 120px;
    margin-left: 70px;
@@ -667,7 +366,6 @@ body {
    z-index: 2;
    position: absolute;
  }
- 
  
  #SeventhParagraphImage {
    position: absolute;
@@ -678,42 +376,14 @@ body {
    margin-right: 70px;
  }
  
- 
  /* <---Paragraph Eight---> */
  
- 
  .EighthParagraph {
-=======
-}
-
-#paragraph8 {
-   z-index: 3;
-   font-size: 20px;
-   color: white;
-   margin-top: 70px;
-   margin-left: 70px;
-   margin-right: 50%;
-}
-
-#SeventhParagraphImage {
-   position: absolute;
-   z-index: 1;
-   margin-top: 70px;
-   margin-left: 57%;
-   margin-right: 70px;
-}
-
-/* <---Paragraph Eight---> */
-
-.EighthParagraph {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    height: 775px;
    display: flex;
    position: relative;
    top: 1480px;
-<<<<<<< HEAD
  }
- 
  
  #paragraph9 {
    z-index: 3;
@@ -725,7 +395,6 @@ body {
    padding-bottom: 20px;
  }
  
- 
  #p8Title {
    margin-top: 125px;
    margin-left: 50%;
@@ -734,7 +403,6 @@ body {
    z-index: 2;
    position: absolute;
  }
- 
  
  #EighthParagraphImage {
    width: 650px;
@@ -745,9 +413,7 @@ body {
    margin-right: 57%;
  }
  
- 
  /* <---Paragraph Nine---> */
- 
  
  .NinthParagraph {
    height: 775px;
@@ -755,7 +421,6 @@ body {
    position: relative;
    top: 1480px;
  }
- 
  
  #paragraph10 {
    z-index: 3;
@@ -766,7 +431,6 @@ body {
    margin-right: 50%;
  }
  
- 
  #p9Title {
    margin-top: 120px;
    margin-left: 70px;
@@ -774,7 +438,6 @@ body {
    z-index: 2;
    position: absolute;
  }
- 
  
  #NinthParagraphImage {
    position: absolute;
@@ -785,9 +448,7 @@ body {
    margin-right: 70px;
  }
  
- 
  /* <---Paragraph Ten---> */
- 
  
  .TenthParagraph {
    height: 775px;
@@ -795,7 +456,6 @@ body {
    position: relative;
    top: 1480px;
  }
- 
  
  #paragraph11 {
    z-index: 3;
@@ -807,7 +467,6 @@ body {
    padding-bottom: 20px;
  }
  
- 
  #p10Title {
    margin-top: 125px;
    margin-left: 50%;
@@ -816,7 +475,6 @@ body {
    z-index: 2;
    position: absolute;
  }
- 
  
  #TenthParagraphImage {
    position: absolute;
@@ -827,9 +485,7 @@ body {
    margin-right: 57%;
  }
  
- 
  /* <---Paragraph Eleven---> */
- 
  
  .EleventhParagraph {
    height: 775px;
@@ -837,7 +493,6 @@ body {
    position: relative;
    top: 1480px;
  }
- 
  
  #paragraph12 {
    z-index: 3;
@@ -848,7 +503,6 @@ body {
    margin-right: 50%;
  }
  
- 
  #p11Title {
    margin-top: 120px;
    margin-left: 70px;
@@ -856,7 +510,6 @@ body {
    z-index: 2;
    position: absolute;
  }
- 
  
  #EleventhParagraphImage {
    position: absolute;
@@ -867,9 +520,7 @@ body {
    margin-right: 70px;
  }
  
- 
  /* <---Paragraph Twelve---> */
- 
  
  .TwelfthParagraph {
    height: 775px;
@@ -877,7 +528,6 @@ body {
    position: relative;
    top: 1480px;
  }
- 
  
  #paragraph13 {
    z-index: 3;
@@ -889,7 +539,6 @@ body {
    padding-bottom: 20px;
  }
  
- 
  #p12Title {
    margin-top: 50px;
    margin-left: 50%;
@@ -898,7 +547,6 @@ body {
    z-index: 2;
    position: absolute;
  }
- 
  
  #TwelfthParagraphImage {
    position: absolute;
@@ -909,94 +557,40 @@ body {
    margin-right: 57%;
  }
  
- 
  /* <---Padding & Margin Modifications---> */
- 
  
  .padding {
    z-index: 1;
  }
  
- 
  #padImage1 {
-=======
-}
-
-#paragraph9 {
-   z-index: 3;
-   color: white;
-   font-size: 20px;
-   margin-top: 90px;
-   margin-left: 50%;
-   margin-right: 70px;
-   padding-bottom: 20px;
-}
-
-#EighthParagraphImage {
-   position: absolute;
-   z-index: 1;
-   margin-top: 70px;
-   margin-left: 70px;
-   margin-right: 57%;
-}
-
-/* <---Padding & Margin Modifications---> */
-
-.padding {
-   z-index: 1;
-}
-
-#padImage1 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    width: 100%;
    height: 125px;
    border-top: solid;
    border-bottom: solid;
    border-bottom-width: 10px;
-<<<<<<< HEAD
  }
- 
  
  #padImage2 {
    width: 100%;
    height: 1200px;
  }
  
- 
  #padImage3 {
-=======
-}
-
-#padImage2 {
-   width: 100%;
-   height: 1200px;
-}
-
-#padImage3 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    position: absolute;
    width: 100%;
    height: 800px;
    z-index: 2;
    top: 2050px;
-<<<<<<< HEAD
  }
  
- 
  #padImage4 {
-=======
-}
-
-#padImage4 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    z-index: 4;
    width: 100%;
    height: 200px;
    position: relative;
    bottom: 750px;
-<<<<<<< HEAD
  }
- 
  
  #padImage5 {
    position: absolute;
@@ -1004,26 +598,12 @@ body {
    height: 775px;
  }
  
- 
  #padImage6 {
-=======
-}
-
-#padImage5 {
-   position: absolute;
-   width: 100%;
-   height: 775px;
-}
-
-#padImage6 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    width: 100%;
    height: 300px;
    position: relative;
    bottom: 100px;
-<<<<<<< HEAD
  }
- 
  
  #padImage7 {
    position: absolute;
@@ -1031,27 +611,13 @@ body {
    height: 835px;
  }
  
- 
  #padImage8 {
-=======
-}
-
-#padImage7 {
-   position: absolute;
-   width: 100%;
-   height: 775px;
-}
-
-#padImage8 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    z-index: 4;
    width: 100%;
    height: 200px;
    position: relative;
    top: 675px;
-<<<<<<< HEAD
  }
- 
  
  #padImage9 {
    position: absolute;
@@ -1059,27 +625,13 @@ body {
    height: 775px;
  }
  
- 
  #padImage10 {
-=======
-}
-
-#padImage9 {
-   position: absolute;
-   width: 100%;
-   height: 775px;
-}
-
-#padImage10 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    z-index: 4;
    width: 100%;
    height: 200px;
    position: relative;
    top: 1425px;
-<<<<<<< HEAD
  }
- 
  
  #padImage11 {
    position: absolute;
@@ -1087,26 +639,12 @@ body {
    height: 800px;
  }
  
- 
  #padImage12 {
-=======
-}
-
-#padImage11 {
-   position: absolute;
-   width: 100%;
-   height: 800px;
-}
-
-#padImage12 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    width: 100%;
    height: 200px;
    position: relative;
    top: 1425px;
-<<<<<<< HEAD
  }
- 
  
  #padImage13 {
    position: absolute;
@@ -1114,26 +652,12 @@ body {
    height: 850px;
  }
  
- 
  #padImage14 {
-=======
-}
-
-#padImage13 {
-   position: absolute;
-   width: 100%;
-   height: 850px;
-}
-
-#padImage14 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    width: 100%;
    height: 200px;
    position: relative;
    top: 1480px;
-<<<<<<< HEAD
  }
- 
  
  #padImage15 {
    position: absolute;
@@ -1141,33 +665,18 @@ body {
    height: 775px;
  }
  
- 
  #padImage16 {
-=======
-}
-
-#padImage15 {
-   position: absolute;
-   width: 100%;
-   height: 775px;
-}
-
-#padImage16 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    width: 100%;
    height: 200px;
    position: relative;
    top: 1480px;
-<<<<<<< HEAD
  }
- 
  
  #padImage17 {
    position: absolute;
    width: 100%;
    height: 775px;
  }
- 
  
  #padImage18 {
    width: 100%;
@@ -1176,13 +685,11 @@ body {
    top: 1480px;
  }
  
- 
  #padImage19 {
    position: absolute;
    width: 100%;
    height: 775px;
  }
- 
  
  #padImage20 {
    width: 100%;
@@ -1191,13 +698,11 @@ body {
    top: 1480px;
  }
  
- 
  #padImage21 {
    position: absolute;
    width: 100%;
    height: 775px;
  }
- 
  
  #padImage22 {
    width: 100%;
@@ -1206,13 +711,11 @@ body {
    top: 1480px;
  }
  
- 
  #padImage23 {
    position: absolute;
    width: 100%;
    height: 775px;
  }
- 
  
  #padImage24 {
    width: 100%;
@@ -1221,106 +724,56 @@ body {
    top: 1480px;
  }
  
- 
  #padImage25 {
    position: absolute;
    width: 100%;
    height: 775px;
  }
  
- 
  #padImage26 {
-=======
-}
-
-#padImage17 {
-   position: absolute;
-   width: 100%;
-   height: 775px;
-}
-
-#padImage18 {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    width: 100%;
    height: 40px;
    position: relative;
    top: 1480px;
-<<<<<<< HEAD
  }
  
- 
  /* <---Footer---> */
- 
  
  .footer {
    position: relative;
    top: 1480px;
  }
  
- 
  .footerlinks {
    font-size: 15px;
  }
- 
- 
+
  .footerSingleReferences {
-=======
-}
-
-/* <---Footer---> */
-
-.footer {
-   position: relative;
-   top: 1480px;
-}
-
-.footerlinks {
-   font-size: 17px;
-}
-
-.footerAlbumReferences {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    position: absolute;
    margin-top: 20px;
    margin-left: 12rem;
    z-index: 3;
    color: white;
    text-decoration: none;
-<<<<<<< HEAD
  }
- 
- 
- .footerArtistReferences {
-=======
-}
 
-.footerArtistReferences {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
+ .footerArtistReferences {
    position: absolute;
    margin-top: 20px;
    margin-left: 56rem;
    z-index: 3;
    color: white;
    text-decoration: none;
-<<<<<<< HEAD
  }
  
- 
  .footerFeatureReferences {
-=======
-}
-
-.footerGenreReferences {
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
    position: absolute;
    margin-top: 20px;
    margin-left: 90rem;
    z-index: 3;
    color: white;
    text-decoration: none;
-<<<<<<< HEAD
  }
- 
  
  #FooterBGImage {
    position: absolute;
@@ -1329,12 +782,3 @@ body {
    padding-bottom: 4px;
  }
  
-=======
-}
-
-#FooterBGImage {
-   position: absolute;
-   width: 100%;
-   height: 300px;
-}
->>>>>>> 86a54d217e145d31ef2488bd629d49be3f37337b
